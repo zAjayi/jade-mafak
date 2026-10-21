@@ -1,4 +1,4 @@
-const CACHE_NAME = 'jade-mafak-v1';
+const CACHE_NAME = 'jade-mafak-v2';
 const PRECACHE_ASSETS = [
   '/',
   '/index.html',

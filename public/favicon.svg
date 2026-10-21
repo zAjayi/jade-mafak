@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <rect width="64" height="64" rx="16" fill="#05213B"/>
-  <!-- Orange athletic swoosh -->
-  <path d="M12 48 C 22 48, 30 38, 36 26 C 40 18, 48 14, 54 12 C 46 22, 38 38, 22 52 Z" fill="#EC6217"/>
-  <path d="M18 52 C 26 50, 34 42, 42 32 C 34 42, 28 50, 18 52 Z" fill="#FF8542"/>
-  <!-- Athlete / Handball representation in crisp white -->
-  <circle cx="44" cy="18" r="6" fill="#FFFFFF"/>
-  <circle cx="44" cy="18" r="5" fill="#05213B"/>
-  <path d="M42 14 L46 22 M41 20 L47 16" stroke="#FFFFFF" stroke-width="1.2"/>
-  <!-- Dynamic athletic figure -->
-  <path d="M28 22 C 32 20, 36 24, 38 29 C 34 32, 28 36, 22 38 C 26 32, 28 26, 28 22 Z" fill="#FFFFFF"/>
+  <rect width="64" height="64" rx="16" fill="#051326"/>
+  <!-- Rich gold athletic swoosh -->
+  <path d="M12 48 C 22 48, 30 38, 36 26 C 40 18, 48 14, 54 12 C 46 22, 38 38, 22 52 Z" fill="#C59B27"/>
+  <path d="M18 52 C 26 50, 34 42, 42 32 C 34 42, 28 50, 18 52 Z" fill="#E8CA72"/>
+  <!-- Athlete / Handball representation in ivory white -->
+  <circle cx="44" cy="18" r="6" fill="#FCFAF5"/>
+  <circle cx="44" cy="18" r="5" fill="#051326"/>
+  <path d="M42 14 L46 22 M41 20 L47 16" stroke="#FCFAF5" stroke-width="1.2"/>
+  <!-- Dynamic athletic figure in ivory white -->
+  <path d="M28 22 C 32 20, 36 24, 38 29 C 34 32, 28 36, 22 38 C 26 32, 28 26, 28 22 Z" fill="#FCFAF5"/>
 </svg>

@@ -87,7 +87,7 @@ const initialSeeds = [
   ['Practice makes progress', 'Grassroots Sports & Handball'],
   ['Play with purpose', 'Grassroots Sports & Handball'],
   ['Mentor circle', 'Youth Mentorship'],
-  ['A listening ear', 'Youth Mentorship'],
+  ['Our 1st Division One appearance as Edo Star', 'Youth Mentorship'],
   ['Room to grow', 'Youth Mentorship'],
   ['Shared stories', 'Youth Mentorship'],
   ['Future leaders', 'Youth Mentorship'],
@@ -100,12 +100,12 @@ const initialSeeds = [
   ['Neighbours together', 'Community Events'],
   ['Making a difference', 'Community Events'],
   ['Open doors', 'Community Events'],
-  ['Celebrating effort', 'Community Events'],
+  ['2023, National Youth Game. Our girls representing Edo State', 'Community Events'],
   ['Local voices', 'Community Events'],
   ['Our community', 'Community Events'],
   ['Showing up', 'Community Events'],
-  ['Learning together', 'Training & Education'],
-  ['The classroom', 'Training & Education'],
+  ['First coaching seminar on coaching female handball players. Sponsored by HFN', 'Training & Education'],
+  ['U-15 Open Championship at Asaba, organized by Kutus Handball Academy.', 'Training & Education'],
   ['Tools for tomorrow', 'Training & Education'],
   ['Hands-on learning', 'Training & Education'],
   ['A bright idea', 'Training & Education'],
@@ -113,7 +113,7 @@ const initialSeeds = [
   ['The work continues', 'Training & Education'],
   ['Building skills', 'Training & Education'],
   ['A shared future', 'Training & Education'],
-  ['A bold beginning', 'Grassroots Sports & Handball'],
+  ['3 of our girls representing Nigeria at the IHF Zone III Trophy. They Won.', 'Grassroots Sports & Handball'],
   ['After the whistle', 'Grassroots Sports & Handball'],
   ['Finding focus', 'Grassroots Sports & Handball'],
   ['The team huddle', 'Youth Mentorship'],
@@ -121,19 +121,20 @@ const initialSeeds = [
   ['Growing together', 'Community Events'],
   ['A day of service', 'Community Events'],
   ['Learning forward', 'Training & Education'],
-  ['Practical tools', 'Training & Education'],
-  ['The work of hope', 'Community Events'],
+  ['2025 Ardova Handball Premier League. 1st place.', 'Training & Education'],
+  ['At the NIS coaching course', 'Training & Education'],
   ['Young and ready', 'Youth Mentorship'],
-  ['The long game', 'Grassroots Sports & Handball'],
-  ['One more step', 'Training & Education'],
+  ['Completion of D-licence IHF Course', 'Training & Education'],
+  ['D-licence IHF course', 'Training & Education'],
   ['Open possibility', 'Community Events'],
-  ['Keep moving', 'Grassroots Sports & Handball']
+  ['Keep moving', 'Grassroots Sports & Handball'],
+  ['Our selected u18 girls from Division one 2025, Representing  Nigeria. They were crowned champions.', 'Grassroots Sports & Handball'],
+  ['The Man at the Centre of it All', 'Youth Mentorship'],
+  ['Our Backbone', 'Community Events'],
+  ['The bronze trophy at the end of the 2025, Ardova Handball Premier League season. Under Omo-Giefo Club', 'Training & Education'],
+  ['The Champions.', 'Training & Education'],
+  ['The exceptional team.', 'Youth Mentorship']
 ];
-
-const localCategories = ['Grassroots Sports & Handball', 'Youth Mentorship', 'Community Events', 'Training & Education'];
-for (let index = initialSeeds.length; index < 58; index += 1) {
-  initialSeeds.push([`Community moment ${index + 1}`, localCategories[index % localCategories.length]]);
-}
 
 const allItems = initialSeeds.map(([title, category], index) => {
   const num = String(index + 1).padStart(2, '0');
